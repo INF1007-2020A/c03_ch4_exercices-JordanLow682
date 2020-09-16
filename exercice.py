@@ -20,7 +20,8 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    return ""
+    string.replace(old_char, new_char)
+    return string
 
 
 def get_nb_char(string: str, char: str) -> int:
