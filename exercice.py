@@ -3,15 +3,7 @@
 
 
 def is_even_len(string: str) -> bool:
-    nombre = len(string)
-    bool resultat
-    if(nombre % 2 == 1) {
-        resultat = false
-    }
-    else {
-        resultat = true
-    }
-    return resultat
+    return len(string) % 2 == 0
 
 
 def remove_third_char(string: str) -> str:
